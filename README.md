@@ -1,5 +1,7 @@
 # HeartStrings
-Live Demo: https://youtu.be/IRkSedUuqKc
+# Live Demo: https://youtu.be/IRkSedUuqKc
+
+
 **Preserve, Reflect, and Connect — One Thought at a Time**  
 
 HeartStrings is a thoughtfully designed application aimed at promoting mental wellness and emotional reflection. In today’s fast-paced world, it’s easy to lose track of our thoughts, feelings, and meaningful moments. HeartStrings provides a safe and intuitive platform to record, track, and revisit personal experiences, helping users gain insight into their emotional well-being over time.  
