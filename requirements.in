@@ -1,0 +1,5 @@
+aiohttp
+aiosignal
+annotated-types
+anyio
+httpx

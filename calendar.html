@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeartStrings - Calendar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/calendar.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mood Calendar</h1>
+    </header>
+    <div class="container">
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Emotion</th>
+                    <th>Journal Entry</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for entry in mood_entries %}
+                    <tr>
+                        <td>{{ entry.date }}</td>
+                        <td>{{ entry.emotion }}</td>
+                        <td>{{ entry.journal_entry }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

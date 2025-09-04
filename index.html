@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartstrings</title>
+    <br>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f7e9f4; /* Very light background */
+            /*font-family: Garamond, Serif;*/
+            font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            margin: 0;
+            padding: 20px;
+            color: #333; /* Dark text color */
+            display: flex;
+            /*align-items: center;*/
+            justify-content: center;
+            /*height: 100vh;*/
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: #fdfdfdb9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .title {
+            font-size: 48px;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: #777;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .menu {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            text-transform: capitalize;
+            transition: color 0.3s;
+        }
+        .menu a:hover {
+            color: #243a52; /* Modern hover color */
+        }
+        .description {
+            margin-top: 30px;
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .features {
+            margin-top: 30px;
+            font-size: 20px;
+            color: #333;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .image {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .image img:hover {
+            transform: scale(1.05); /* Slight zoom on hover */
+        }
+
+        .mini-container {
+            background-color: #f7e9f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .mini-container a {
+            display: block;
+            margin: 10px 0;
+            font-size: 18px;
+            color: #4a0072;
+            text-decoration: none;
+        }
+        .mini-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <br>
+            <a href="/journal">Journal</a>
+            <a href="/calendar">Calendar</a>
+        </div>
+        <div class="title">Heartstrings</div>
+        <div class="description">
+            The systematized area where you can journal and receive cognitive recommendations, explore music, and track your patterns.
+        </div>
+        <div class="features">
+            Allow yourself to:
+            <ul>
+                <div class="mini-container">
+                <li><b><a href="/journal"><p style="color:black;">Journal and get music recommendations.</p></a></b></li>
+                <li><b><a href="/calendar"><p style="color:black;">Visualize your days.</p></a></b></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

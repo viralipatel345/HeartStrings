@@ -1,0 +1,137 @@
+/* Set the background color to a very light background */
+body {
+    background-color: #f7e9f4; /* Very light background */
+    font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Dark text color */
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the container */
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #fdfdfdb9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style the prompt text */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Style the form elements */
+form {
+    background-color: #FFE4E1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #D9534F;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #D9534F;
+}
+
+.btn-primary {
+    background-color: #D9534F;
+    border-color: #D9534F;
+}
+
+.btn-primary:hover {
+    background-color: #C9302C;
+    border-color: #AC2925;
+}
+
+/* Style the emotion and recommendations section */
+.mt-5 h3, .mt-5 h4 {
+    color: #D9534F;
+}
+
+.list-group-item {
+    background-color: #FFF5F5;
+    border: 1px solid #FFCCCC;
+}
+
+.list-group-item a {
+    color: #C9302C;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for other elements in your application */
+h1 {
+    color: #333;
+}
+nav {
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+textarea, input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #D9534F;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #D9534F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #C9302C;
+}
+#calendar {
+    margin-top: 20px;
+}
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#calendar th, #calendar td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+#calendar th {
+    background-color: #f2f2f2;
+}
+#calendar tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+#calendar tr:hover {
+    background-color: #e0f7fa;
+}
+#calendar .day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffe4e1;
+    margin-bottom: 10px;
+}
