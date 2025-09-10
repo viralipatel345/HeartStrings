@@ -1,5 +1,5 @@
 # HeartStrings
-# Live Demo: https://youtu.be/IRkSedUuqKc
+
 
 
 **Preserve, Reflect, and Connect — One Thought at a Time**  
